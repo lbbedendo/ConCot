@@ -1,7 +1,6 @@
 package concot
 
 class Fornecedor {
-
     String nome
 
     static constraints = {

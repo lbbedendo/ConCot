@@ -1,7 +1,6 @@
 package concot
 
 class Item {
-
     String nome
     static belongsTo = [categoria:Categoria]
 

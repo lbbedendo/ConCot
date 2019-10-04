@@ -1,7 +1,6 @@
 package concot
 
 class Cotacao {
-
     BigDecimal valor
     Date data
 

@@ -1,7 +1,6 @@
 package concot
 
 class Moeda {
-
     String nome
     String simbolo
 
