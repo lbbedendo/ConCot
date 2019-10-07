@@ -2,7 +2,12 @@ package concot
 
 class CategoriaController {
 
-    static scaffold = Categoria
+    def index() {
+        [categoriaList: Categoria.list(params),
+         categoriaCount: Categoria.count()]
+    }
 
-    def index() { }
+    def show(Long id) {
+        [categoria: Categoria.findById(id)]
+    }
 }
