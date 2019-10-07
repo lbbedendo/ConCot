@@ -5,7 +5,7 @@ class Moeda {
     String simbolo
 
     String toString() {
-        "$this.nome - $this.simbolo"
+        "${this.nome} - ${this.simbolo}"
     }
 
     static constraints = {
